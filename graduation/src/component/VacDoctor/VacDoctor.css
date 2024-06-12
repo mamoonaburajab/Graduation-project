@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+   
+}
+
+.button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    color: aliceblue;
+    background: radial-gradient(circle at 53.4% -80.8%, rgb(39, 65, 136) 0.2%, rgba(0, 0, 0, 1) 100.2%);
+}
+
+.button:last-child {
+    margin-right: 0;
+}

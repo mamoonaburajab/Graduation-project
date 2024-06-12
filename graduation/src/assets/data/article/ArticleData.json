@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "title": "صحة الطفل",
+      "paragraph": "تأكد من رعاية صحة طفلك بشكل جيد. يُنصح بإطعامه بانتظام وتوفير بيئة نظيفة وآمنة للنوم. كما يجب عليك مراقبة نموه وتطوره والتحقق من تلقيحه وزيارات الطبيب المنتظمة.",
+      "image": "https://images.pexels.com/photos/4079281/pexels-photo-4079281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-1"
+    },
+    {
+      "id": 2,
+      "title": "صحة الأم",
+      "paragraph": "تأكد من الاعتناء بصحتك أيضًا. استمعي إلى جسمك وأخذي الراحة الكافية. يُنصح بتناول وجبات صحية وشرب الكثير من الماء. لا تترددي في طلب المساعدة إذا كنت بحاجة إليها، وحافظي على روتين فحوصات الحمل والزيارات الدورية إلى الطبيب.",
+      "image": "https://images.pexels.com/photos/2759897/pexels-photo-2759897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-2"
+    },
+    {
+      "id": 3,
+      "title": "التغذية الصحية",
+      "paragraph": "يُشجع على توفير تغذية صحية لكليهما، الطفل والأم. تناول مجموعة متنوعة من الأطعمة الغنية بالفيتامينات والمعادن لدعم صحتكما وتطور الطفل.",
+      "image": "https://images.pexels.com/photos/8504270/pexels-photo-8504270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-3"
+    },
+    {
+      "id": 4,
+      "title": "النوم الجيد",
+      "paragraph": "يعتبر النوم الجيد أمرًا هامًا للطفل والأم. حافظي على بيئة هادئة للنوم، وضمان توفير ساعات كافية من الراحة. قد يساعد النوم الجيد في تعزيز صحة الطفل وتحسين حالة الأم.",
+      "image": "https://images.pexels.com/photos/3875225/pexels-photo-3875225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-4"
+    },
+    {
+      "id": 5,
+      "title": "الرياضة اللطيفة",
+      "paragraph": "ممارسة الرياضة اللطيفة يمكن أن تكون مفيدة لصحة الأم. اختاري نشاطات مناسبة لفترة الحمل وتأكدي من استشارة الطبيب. النشاط البدني يساعد في تقوية الجسم وتحسين المزاج.",
+      "image": "https://images.pexels.com/photos/1261909/pexels-photo-1261909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-5"
+    },
+    {
+      "id": 6,
+      "title": "التفاعل الاجتماعي",
+      "paragraph": "حافظي على التواصل مع المحيطين بك والتفاعل الاجتماعي. يمكن أن يكون لذلك تأثير إيجابي على الحالة النفسية والعاطفية للأم وبالتالي على صحة الطفل.",
+      "image": "https://images.pexels.com/photos/7104342/pexels-photo-7104342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-6"
+    },
+    {
+      "id": 7,
+      "title": "التفاهم الأسري",
+      "paragraph": "يعتبر التفاهم الأسري عاملاً هامًا. حاولي البقاء قريبة من أفراد عائلتك والتحدث بصراحة حول احتياجاتك ومشاعرك. الدعم الأسري يلعب دورًا كبيرًا في تحقيق صحة جيدة للأم والطفل.",
+      "image": "https://images.pexels.com/photos/4668998/pexels-photo-4668998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-7"
+    },
+    {
+      "id": 8,
+      "title": "الاسترخاء والتأمل",
+      "paragraph": "حاولي إدارة التوتر والاسترخاء بانتظام. تقنيات التأمل والاسترخاء يمكن أن تكون فعّالة في تحسين حالة النفس وتقليل التوتر، مما يعود بالفائدة على صحة الأم والطفل.",
+      "image": "https://images.pexels.com/photos/6849528/pexels-photo-6849528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-8"
+    },
+    {
+      "id": 9,
+      "title": "التحضير للولادة",
+      "paragraph": "قمي بالتحضير الجيد لفترة الولادة. حضري دورات الولادة إذا كان ذلك مناسبًا لك واستفسري عن كل ما يتعلق بالولادة والرعاية بعد الولادة. التحضير يمكن أن يقلل من القلق ويعزز الثقة.",
+      "image": "https://images.pexels.com/photos/755049/pexels-photo-755049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "link": "https://example.com/article-9"
+    }
+  ]
+}

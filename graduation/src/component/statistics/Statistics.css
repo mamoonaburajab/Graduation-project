@@ -1,0 +1,92 @@
+.statistics-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+margin-bottom: 60px;
+  direction: rtl;
+}
+
+.statistics-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.statistics-header h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+.statistics-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.statistics-overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-item {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  width: 30%;
+}
+
+.statistics-item h3 {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.statistics-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.statistics-subheader {
+  text-align: center;
+}
+
+.statistics-subheader h3 {
+  font-size: 22px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.statistics-vaccinated {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.statistics-vaccinated .statistics-item {
+  flex: 1 1 calc(33% - 20px);
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .statistics-overview {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .statistics-vaccinated .statistics-item {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .statistics-vaccinated .statistics-item {
+    flex: 1 1 100%;
+  }
+}

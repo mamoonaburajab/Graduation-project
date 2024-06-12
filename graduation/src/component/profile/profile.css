@@ -1,0 +1,77 @@
+/* Styles.css */
+
+/* General Layout and Background */
+section {
+  background-color: #f7f7f7; /* Lighter grey background for better contrast */
+  font-family: 'Arial', sans-serif; 
+  margin-top: 100px;/* Modern and readable font */
+}
+
+/* Container Styling */
+.MDBContainer {
+  max-width: 1200px; /* Setting a max width for larger screens */
+}
+
+/* Card Styling */
+.MDBCard {
+  border: none; /* Removes default border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  overflow: hidden; /* Ensures no content spills out */
+}
+
+.MDBCardBody {
+  padding: 20px; /* Spacious padding inside the card */
+}
+
+/* Text Styling */
+.MDBCardText {
+  color: #333; /* Darker text for better readability */
+  margin-bottom: 8px; /* Space below text */
+}
+
+.text-muted {
+  color: #666; /* Lighter grey for less important text */
+}
+
+/* Button Styling */
+.MDBBtn {
+  background-color: #0056b3; /* A strong blue for primary buttons */
+  color: white;
+  padding: 10px 20px; /* Ample padding for better interaction */
+  border: none;
+  border-radius: 8px; /* Rounded edges */
+  cursor: pointer; /* Indicates that the element is clickable */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.MDBBtn:hover {
+  background-color: #d10d0d; /* Darker blue on hover for feedback */
+}
+
+/* Input Field Styling */
+.MDBInput {
+  width: 100%; /* Full-width inputs */
+  padding: 10px;
+  border: 2px solid #ccc; /* Subtle border */
+  border-radius: 8px; /* Consistency with buttons */
+  margin-bottom: 16px; /* Spacing below each input */
+}
+
+.MDBInput label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .MDBCol {
+    flex: 0 0 100%; /* Full width on smaller screens */
+    max-width: 100%;
+  }
+
+  .MDBCardBody {
+    padding: 15px; /* Slightly less padding on smaller devices */
+  }
+}

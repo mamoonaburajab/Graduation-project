@@ -1,0 +1,14 @@
+{
+    "paths": {
+      "@/components/ui/table": "./src/components/ui/Table",
+      "@/components/ui/button": "./src/components/ui/Button"
+    },
+    "aliases": {
+      "ui-components": "./src/components/ui"
+    },
+    "settings": {
+      "theme": "light",
+      "language": "en"
+    }
+  }
+  

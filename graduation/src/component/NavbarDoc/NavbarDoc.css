@@ -1,0 +1,51 @@
+.color{
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .navbar-nav {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      margin-right: 90px;
+    }
+  
+  
+  }
+  .tooltip {
+    position: static;
+    display: inline-block;
+}
+.tooltip:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 100%;
+    top: 0;
+    white-space: nowrap;
+    z-index: 20;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .navbar-nav {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-right: 90px;
+      }
+}

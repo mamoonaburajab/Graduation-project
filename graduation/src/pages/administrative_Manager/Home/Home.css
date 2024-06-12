@@ -1,0 +1,12 @@
+.bg-img {
+    width: 101rem;
+    height: auto;  /* Adjust height as necessary, or use 'auto' if it should be determined by content */
+    background-image: url('/home/mamoon/graduation folder/graduation/src/assets/image/pexels-anna-tarazevich-5196815.jpg');
+    background-color: rgba(51, 51, 51, 0.938);
+    background-size: cover; /* Adjusted to 'cover' for better responsive handling */
+    background-blend-mode: multiply; /* This will blend the image with the background color */
+    background-position: center; /* Ensures the image is centered in the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Optional: Sets the height to full viewport */
+
+}

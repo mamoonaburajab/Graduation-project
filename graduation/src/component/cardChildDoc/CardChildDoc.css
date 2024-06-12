@@ -1,0 +1,45 @@
+.CardChildDoc{
+  margin-right: 25px;
+}
+.card-img{
+  width: 180px;
+  
+}
+.card-child{
+  margin-left: 40px;
+}
+.btn-child-doc {
+    display: flex;
+    margin: 20px;
+    width: 180px;
+    justify-content: center;
+    background-color: #00224D;
+  }
+  .card-child{
+    margin-left: 0;
+  }
+  .btn-child-doc:hover {
+    display: flex;
+    margin: 20px;
+    width: 180px;
+    justify-content: center;
+    background-color: #000000;
+  }
+  
+  .link-style {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .conta-doc {
+    margin-top: 30px;
+    /* margin-right: 100px; */
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+    .conta-doc {
+      margin-right: 30px;
+    }
+  }
+  

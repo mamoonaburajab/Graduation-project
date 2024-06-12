@@ -1,0 +1,37 @@
+/* CardArticle.css */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 450px;
+  margin: 10px;
+  
+  
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-card-text {
+  color: #666;
+  line-height: 1.6;
+  transition: color 0.3s ease-in-out;
+}
+
+.card:hover .custom-card-title {
+  color: #ff4081; /* Change title color on hover */
+}
+
+.card:hover .custom-card-text {
+  color: #ff4081; /* Change text color on hover */
+}

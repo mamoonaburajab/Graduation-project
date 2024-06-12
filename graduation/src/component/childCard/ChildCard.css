@@ -1,0 +1,51 @@
+.card-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    float: right;
+    width: 100%; /* Full width for better responsiveness */
+  }
+  
+  .card-img {
+    width: 10rem;
+  }
+  
+  .table-comp {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    direction: rtl;
+  }
+  
+  .comp {
+    width: 100%; /* Full width for better responsiveness */
+    margin-top: 20px; /* Adjusted for better spacing */
+  }
+  
+  .list-group-flush .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-left: 10px; /* Adjust spacing as needed */
+  }
+  
+  .value {
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (min-width: 768px) {
+    .table-comp {
+      flex-direction: row; /* Row direction for medium and larger screens */
+    }
+  
+    .comp {
+      width: 60%; /* Original width for larger screens */
+      margin: 90px 100px 0 0;
+    }
+  }
+  

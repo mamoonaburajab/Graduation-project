@@ -1,0 +1,50 @@
+/* CSS for VaccinationTable component */
+.vaccination-table{
+  margin-top: 150px;
+}
+/* Style the table */
+.rtl-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
+  
+  /* Style table header */
+  .rtl-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Style table body */
+  .rtl-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Style alternate rows */
+  .rtl-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the header cells with colspan */
+  .rtl-table th[colspan="6"] {
+    background-color: #fff;
+  }
+  
+  /* Additional styling for specific cells */
+  .date,
+  .lot-no,
+  .doctor-name {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 120px;
+  }
+  .disable{
+    background-color: rgba(0, 0, 0, 0.308);
+  }

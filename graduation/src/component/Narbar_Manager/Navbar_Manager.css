@@ -1,0 +1,67 @@
+.home-btn {
+  color: white;
+  margin-top: 50px;
+}
+
+.info-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #215273;
+  background: linear-gradient(
+    to bottom,
+    rgba(9, 29, 85, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  /* margin-left: -100px; */
+  opacity: 0.9;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  width: 270px;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-evenly;
+  z-index: 1000;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.option-btn {
+  background: none;
+  color: white;
+  border: none;
+  padding: 1em 0px;
+  margin-bottom: 1em;
+  cursor: pointer;
+  width: 250px;
+  font-size: larger;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 40px 0 0px 40px;
+  text-decoration: none;
+}
+
+.option-btn:hover {
+  background-color: white;
+  color: #006699;
+}
+
+.logout {
+  margin-bottom: 50px;
+}
+
+.line {
+  color: white;
+  background-color: white;
+}
+
+.div-manager {
+  display: flex;
+  justify-content: flex-end;
+  height: 99vh;
+}

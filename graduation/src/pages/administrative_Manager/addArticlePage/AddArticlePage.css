@@ -1,0 +1,12 @@
+.Article-page {
+    background-image: url('../../../assets//image/pexels-anna-tarazevich-5196815.jpg'); /* Adjust path as needed */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 140vh; /* Optional: Set the height to full viewport */
+    background-color: rgba(51, 51, 51, 0.938);
+    background-size: cover; /* Adjusted to 'cover' for better responsive handling */
+    background-blend-mode: multiply; /* This will blend the image with the background color */
+    background-position: center; /* Ensures the image is centered in the container */
+    background-repeat: no-repeat;
+  }

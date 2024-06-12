@@ -1,0 +1,44 @@
+.home {
+  background-color: rgba(240, 248, 255, 0.178);
+  width: 100%;
+  height: 200vh;
+}
+.articleCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 80px;
+  margin-top: 30px;
+  
+}
+.nav-link{
+  height: 50px;
+  position: relative;
+}
+.link-website{
+  background-color: rgb(110, 114, 117);
+  margin-top: 65px;
+  color: aliceblue;
+  
+}
+.link-website-btn{
+  color: aliceblue;
+}
+.link-website-btn:hover{
+  color: #070b85;
+  transition: color 0.5s ease-in-out;
+}
+.link-website a{
+  color: aliceblue;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .link-website {
+    margin-top: 55px;
+  }
+  .articleCard{
+    margin-right: 10px;
+  }
+  
+}

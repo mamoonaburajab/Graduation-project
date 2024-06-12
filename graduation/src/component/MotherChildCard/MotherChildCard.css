@@ -1,0 +1,33 @@
+.conta{
+  margin: 30px 20px;
+}
+.card-child{
+  margin-left: 20px;
+  background-color: #dfdfdf25;
+}
+.btn-child {
+  display: flex;
+  margin: 20px;
+  width: 180px;
+  justify-content: center;
+  background-color: #00224D;
+}.btn-child:hover {
+background-color: black;
+}
+.card-img{
+  width: 150px;
+  
+}
+  .link-style {
+    text-decoration: none;
+  
+  color: aliceblue;
+}
+.conta{
+  margin-top: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .conta {
+    margin-right: 30px;
+  }
+}
